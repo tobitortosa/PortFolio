@@ -14,7 +14,6 @@ export default function About() {
               </div>
               <div className={s.hexTxt}>
                 <h3>Fast</h3>
-
                 <p>Creative and Proactive Person who Always Seeks to Improve</p>
               </div>
             </div>
