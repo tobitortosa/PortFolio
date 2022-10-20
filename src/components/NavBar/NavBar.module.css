@@ -1,5 +1,5 @@
 .container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -135,6 +135,7 @@
 .toggle li:hover p {
   color: white;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {

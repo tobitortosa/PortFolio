@@ -38,7 +38,7 @@ export default function NavBar() {
                     spy={true}
                     smooth={true}
                     offset={50}
-                    duration={1400}
+                    duration={1200}
                   >
                     <p>{el}</p>
                   </Link>

@@ -1,0 +1,7 @@
+.container {
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100%;
+    margin-top: 5vh;
+}
