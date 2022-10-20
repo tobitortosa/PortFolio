@@ -1,11 +1,10 @@
 .container {
   background-image: url("../../images/code.jpg");
-  border: 10px solid red;
   color: white;
-  height: 95vh;
+  height: 107.5vh;
   overflow: hidden;
   background-size: 100%;
-  margin-top: vh;
+  margin-top: -8vh;
 }
 
 .typeContainer {
@@ -20,7 +19,7 @@
 
 .typeContainer .text {
   color: rgba(255, 105, 180, 0.8);
-  font-size: 35px;
+  font-size: 70px;
   font-weight: 600;
 }
 
@@ -33,4 +32,9 @@
 }
 
 @media (max-width: 1200px) {
+  .typeContainer .text {
+    color: rgba(255, 105, 180, 0.8);
+    font-size: 35px;
+    font-weight: 600;
+  }
 }

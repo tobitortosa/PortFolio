@@ -34,6 +34,7 @@ export default function NavBar() {
               return (
                 <li key={index}>
                   <Link
+                    onClick={toggleButton}
                     to={el}
                     spy={true}
                     smooth={true}

@@ -6,9 +6,9 @@ import About from "./components/About/About";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <Hero />
       <About />
+      <NavBar />
     </div>
   );
 }
