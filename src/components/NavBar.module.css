@@ -1,0 +1,172 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: auto;
+}
+
+#logoImg {
+  height: 45px;
+  width: 45px;
+  background-image: url("../images/log.png");
+  background-size: cover;
+  margin-left: 25px;
+}
+
+#logoImg:hover {
+  cursor: pointer;
+}
+
+.ulContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.ulContainer li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.ulContainer li p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.ulContainer li p:hover {
+  color: white;
+}
+
+#toggleButton {
+  position: absolute;
+  top: 13px;
+  right: 35px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+#toggleButton .bar {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.toggle li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.toggle li a {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+
+.toggle li a::after {
+  content: "";
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 105, 180, 0.8);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.toggle li a:hover::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.toggle li:hover {
+  cursor: pointer;
+}
+
+.active #firstBar {
+  position: absolute;
+  top: 12px;
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+
+.active #secondBar {
+  display: none;
+  transition: 0.3s;
+}
+
+.active #thirdBar {
+  position: absolute;
+  top: 12px;
+  transform: rotate(-45deg);
+  transition: 0.3s;
+}
+
+.toggle li p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.toggle li p:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .toggle li p:hover {
+    color: rgba(255, 255, 255);
+    transition: 0.3s;
+  }
+
+  #toggleButton {
+    display: flex;
+  }
+  .navContainer {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .ulContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+  }
+
+  .ulContainer li {
+    padding-top: 10px;
+  }
+}
