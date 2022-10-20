@@ -9,33 +9,44 @@ export default function About() {
         <div className={s.hexContainer}>
           <div className={s.twoHexContainer}>
             <div className={s.hexs}>
-              <div className={s.hex}></div>
+              <div className={s.hex}>
+                <i class="uil uil-lightbulb-alt"></i>
+              </div>
               <div className={s.hexTxt}>
                 <h3>Fast</h3>
-                <p>Soy el mas rapido Soy el mas rapido Soy  </p>
+
+                <p>Creative and Proactive Person who Always Seeks to Improve</p>
               </div>
             </div>
             <div className={s.hexs}>
-              <div className={s.hex}></div>
+              <div className={s.hex}>
+                <i class="uil uil-lightbulb-alt"></i>
+              </div>
               <div className={s.hexTxt}>
                 <h3>Fast</h3>
-                <p>Soy el mas rapido</p>
+
+                <p>Creative and Proactive Person who Always Seeks to Improve</p>
               </div>
             </div>
           </div>
           <div className={s.twoHexContainer}>
             <div className={s.hexs}>
-              <div className={s.hex}></div>
+              <div className={s.hex}>
+                <i class="uil uil-lightbulb-alt"></i>
+              </div>
               <div className={s.hexTxt}>
                 <h3>Fast</h3>
-                <p>Soy el mas rapido</p>
+
+                <p>Creative and Proactive Person who Always Seeks to Improve</p>
               </div>
             </div>
             <div className={s.hexs}>
-              <div className={s.hex}></div>
+              <div className={s.hex}>
+                <i class="uil uil-lightbulb-alt"></i>
+              </div>
               <div className={s.hexTxt}>
                 <h3>Fast</h3>
-                <p>Soy el mas rapido</p>
+                <p>Creative and Proactive Person who Always Seeks to Improve</p>
               </div>
             </div>
           </div>

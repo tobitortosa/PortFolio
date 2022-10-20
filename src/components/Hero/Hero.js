@@ -15,6 +15,12 @@ export default function Hero() {
   return (
     <div className={s.container} id="Home">
       <div className={s.typeContainer}>
+        <p>
+          Hello, I'm
+          <h3>
+            Tobías Tortosa<span id={s.dot}>.</span>
+          </h3>
+        </p>
         <span className={s.text} id={s.firstText}>
           I'm a
         </span>

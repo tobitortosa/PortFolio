@@ -13,10 +13,19 @@ export default function NavBar() {
   return (
     <div className={s.container}>
       <nav className={s.navContainer}>
-        <div>
-          <a>
-            <div id={s.logoImg}></div>
-          </a>
+        <div id={s.div}></div>
+        <div className={s.logoContainer}>
+          {hamburgerButton && (
+            <Link
+              to="Home"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1000}
+            >
+              <p>Tt</p>
+            </Link>
+          )}
         </div>
         <a
           to="#"
@@ -39,7 +48,7 @@ export default function NavBar() {
                     spy={true}
                     smooth={true}
                     offset={50}
-                    duration={1200}
+                    duration={1000}
                   >
                     <p>{el}</p>
                   </Link>

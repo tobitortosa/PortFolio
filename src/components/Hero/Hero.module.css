@@ -17,18 +17,31 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.typeContainer .text {
+.typeContainer h3 {
+  margin: 3px;
+  font-size: 40px;
+  margin-bottom: 70px;
+  margin-left: 25px;
   color: rgba(255, 105, 180, 0.8);
-  font-size: 70px;
-  font-weight: 600;
+}
+
+.typeContainer p {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 #firstText {
   color: rgba(255, 255, 255, 0.9);
+  font-size: 50px;
+}
+
+#dot {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #secText {
-  margin-left: 10px;
+  color: rgba(255, 105, 180, 0.8);
+  font-size: 65px;
 }
 
 @media (max-width: 1200px) {
@@ -36,5 +49,21 @@
     color: rgba(255, 105, 180, 0.8);
     font-size: 35px;
     font-weight: 600;
+  }
+
+  .typeContainer h3 {
+    font-size: 30px;
+  }
+
+  .typeContainer p {
+    font-size: 23px;
+  }
+
+  #firstText {
+    font-size: 28px;
+  }
+
+  #secText {
+    font-size: 30px;
   }
 }

@@ -9,20 +9,31 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   height: auto;
 }
 
-#logoImg {
-  height: 50px;
-  width: 50px;
-  background-image: url("../../images/log.png");
-  background-size: cover;
-  margin-left: 25px;
+.logoContainer {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 28px;
+  margin: 0px;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  top: -15px;
+  transition: 0.3s;
 }
 
-#logoImg:hover {
+.logoContainer:hover {
   cursor: pointer;
+  color: rgba(255, 255, 255);
+  transition: 0.3s;
+}
+
+.logoContainer::before #div {
+  height: 50px;
+  width: 50px;
+  position: relative;
 }
 
 .ulContainer {
@@ -50,7 +61,7 @@
 
 #toggleButton {
   position: absolute;
-  top: 13px;
+  top: 19px;
   right: 35px;
   display: none;
   flex-direction: column;
@@ -114,7 +125,6 @@
   margin-left: auto;
   margin-right: 60px;
 }
-
 
 .ulContainer li {
   list-style: none;
