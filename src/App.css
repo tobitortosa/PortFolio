@@ -1,12 +1,14 @@
-body{
+body {
   background-image: url("./images/PCGB.png");
   background-size: 100% auto;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 @media (max-width: 1200px) {
-  body{
+  body {
     background-image: url("./images/mobileBG.jpg");
     background-size: 100% 100vh;
   }

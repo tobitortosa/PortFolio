@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./NavBar.module.css";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 export default function NavBar() {
   const [hamburgerButton, setHamburgerButton] = useState(true);
@@ -32,9 +33,15 @@ export default function NavBar() {
             (el, index) => {
               return (
                 <li key={index}>
-                  <a>
+                  <Link
+                    to={el}
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={1400}
+                  >
                     <p>{el}</p>
-                  </a>
+                  </Link>
                 </li>
               );
             }
