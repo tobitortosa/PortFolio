@@ -14,12 +14,17 @@
 .container p {
   font-size: 13px;
   width: 200px;
-  margin-top: 40px;
+  margin-top: 6vh;
   color: rgba(255, 255, 255, 0.9);
 }
 
 .cupsContainer {
-  margin-top: 10px;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
 }
 
 .title {
@@ -43,9 +48,11 @@
   position: relative;
   display: flex;
   justify-content: space-around;
-  width: 280px;
-  margin-top: 10px;
+  width: 80vw;
+  height: 80vh;
+  margin: 8px 0px;
 }
+
 
 .img {
   background-size: 100% auto;
