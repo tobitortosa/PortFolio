@@ -4,8 +4,6 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 
 export default function NavBar() {
-  console.log(window.screen.width);
-
   const [hamburgerButton, setHamburgerButton] = useState(true);
 
   const toggleButton = () => {

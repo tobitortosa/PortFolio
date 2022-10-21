@@ -14,10 +14,6 @@ export default function Skills() {
     }
   };
 
-  if (start) {
-    console.log("nashe");
-  }
-
   return (
     <div className={s.container} id="Skills">
       <h3 className={s.title}>SKILLS</h3>
@@ -25,7 +21,7 @@ export default function Skills() {
         <div className={s.cupsContainer}>
           <div className={s.cups}>
             <div className={s.cup}>
-              <div id="bannerJS">
+              <div class="banner" id="bannerJS">
                 <div class="fillJS">
                   <svg
                     version="1.1"
@@ -40,6 +36,7 @@ export default function Skills() {
                     xmlSpace="preserve"
                   >
                     <path
+                      class="waveShape"
                       fill="#04ACFF"
                       id="waveShapeJS"
                       d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4
@@ -49,10 +46,10 @@ export default function Skills() {
                   </svg>
                 </div>
               </div>
-              <div id={s.imgJS}></div>
+              <div className={s.img} id={s.imgJS}></div>
             </div>
             <div className={s.cup}>
-              <div id="bannerHTML">
+              <div class="banner" id="bannerHTML">
                 <div class="fillHTML">
                   <svg
                     version="1.1"
@@ -67,6 +64,7 @@ export default function Skills() {
                     xmlSpace="preserve"
                   >
                     <path
+                      class="waveShape"
                       fill="#04ACFF"
                       id="waveShapeHTML"
                       d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4
@@ -77,12 +75,12 @@ export default function Skills() {
                 </div>
               </div>
               <div id={s.imgHTMLBG}></div>
-              <div id={s.imgHTML}></div>
+              <div className={s.img} id={s.imgHTML}></div>
             </div>
           </div>
           <div className={s.cups}>
             <div className={s.cup}>
-              <div id="bannerCSS">
+              <div class="banner" id="bannerCSS">
                 <div class="fillCSS">
                   <svg
                     version="1.1"
@@ -97,6 +95,7 @@ export default function Skills() {
                     xmlSpace="preserve"
                   >
                     <path
+                      class="waveShape"
                       fill="#04ACFF"
                       id="waveShapeCSS"
                       d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4
@@ -106,10 +105,10 @@ export default function Skills() {
                   </svg>
                 </div>
               </div>
-              <div id={s.imgCSS}></div>
+              <div className={s.img} id={s.imgCSS}></div>
             </div>
             <div className={s.cup}>
-              <div id="bannerREACT">
+              <div class="banner" id="bannerREACT">
                 <div class="fillREACT">
                   <svg
                     version="1.1"
@@ -124,6 +123,7 @@ export default function Skills() {
                     xmlSpace="preserve"
                   >
                     <path
+                      class="waveShape"
                       fill="#04ACFF"
                       id="waveShapeREACT"
                       d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4
@@ -133,12 +133,12 @@ export default function Skills() {
                   </svg>
                 </div>
               </div>
-              <div id={s.imgREACT}></div>
+              <div className={s.img} id={s.imgREACT}></div>
             </div>
           </div>
           <div className={s.cups}>
             <div className={s.cup}>
-              <div id="bannerNODE">
+              <div class="banner" id="bannerNODE">
                 <div class="fillNODE">
                   <svg
                     version="1.1"
@@ -153,6 +153,7 @@ export default function Skills() {
                     xmlSpace="preserve"
                   >
                     <path
+                      class="waveShape"
                       fill="#04ACFF"
                       id="waveShapeNODE"
                       d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4
@@ -162,10 +163,10 @@ export default function Skills() {
                   </svg>
                 </div>
               </div>
-              <div id={s.imgNODE}></div>
+              <div className={s.img} id={s.imgNODE}></div>
             </div>
             <div className={s.cup}>
-              <div id="bannerREDUX">
+              <div class="banner" id="bannerREDUX">
                 <div class="fillREDUX">
                   <svg
                     version="1.1"
@@ -180,6 +181,7 @@ export default function Skills() {
                     xmlSpace="preserve"
                   >
                     <path
+                      class="waveShape"
                       fill="#04ACFF"
                       id="waveShapeREDUX"
                       d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4
@@ -189,12 +191,12 @@ export default function Skills() {
                   </svg>
                 </div>
               </div>
-              <div id={s.imgREDUX}></div>
+              <div className={s.img} id={s.imgREDUX}></div>
             </div>
           </div>
           <div className={s.cups}>
             <div className={s.cup}>
-              <div id="bannerPOSTGRES">
+              <div class="banner" id="bannerPOSTGRES">
                 <div class="fillPOSTGRES">
                   <svg
                     version="1.1"
@@ -210,6 +212,7 @@ export default function Skills() {
                   >
                     <path
                       fill="#04ACFF"
+                      class="waveShape"
                       id="waveShapePOSTGRES"
                       d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4
                   c-12.3,1.1-30.3,1.8-31.9,1.9c-2-0.1-19.7-0.8-32-1.9c0,0-25.8-2.3-40.8-2.4c-15,0-40.8,2.4-40.8,2.4c-12.3,1.1-30.4,1.8-32,1.9
@@ -218,10 +221,10 @@ export default function Skills() {
                   </svg>
                 </div>
               </div>
-              <div id={s.imgPOSTGRES}></div>
+              <div className={s.img} id={s.imgPOSTGRES}></div>
             </div>
             <div className={s.cup}>
-              <div id="bannerEXPRESS">
+              <div class="banner" id="bannerEXPRESS">
                 <div class="fillEXPRESS">
                   <svg
                     version="1.1"
@@ -236,6 +239,7 @@ export default function Skills() {
                     xmlSpace="preserve"
                   >
                     <path
+                      class="waveShape"
                       fill="#04ACFF"
                       id="waveShapeEXPRESS"
                       d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4
@@ -246,7 +250,7 @@ export default function Skills() {
                 </div>
               </div>
               <div id={s.imgEXPRESSBG}></div>
-              <div id={s.imgEXPRESS}></div>
+              <div className={s.img} id={s.imgEXPRESS}></div>
             </div>
           </div>
         </div>

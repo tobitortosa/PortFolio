@@ -31,8 +31,6 @@
   left: 8px;
 }
 
-
-
 .cups {
   position: relative;
   display: flex;
@@ -41,28 +39,28 @@
   margin-top: 10px;
 }
 
-#imgJS {
-  height: 54px;
-  width: 52px;
-  background-image: url("../../images/skills/js.png");
+.img {
   background-size: 100% auto;
   background-repeat: no-repeat;
-  top: 28px;
-  right: 9px;
   position: absolute;
   border-radius: 5px;
 }
 
-#imgHTML {
+#imgJS {
   height: 54px;
+  width: 52px;
+  background-image: url("../../images/skills/js.png");
+  top: 28px;
+  right: 9px;
+}
+
+#imgHTML {
+  height: 50px;
   width: 58px;
   background-image: url("../../images/skills/html.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+
   top: 28px;
   right: 6px;
-  position: absolute;
-  border-radius: 5px;
 }
 
 #imgHTMLBG {
@@ -79,72 +77,54 @@
   height: 54px;
   width: 58px;
   background-image: url("../../images/skills/css.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+
   top: 28px;
   right: 6px;
-  position: absolute;
-  border-radius: 5px;
 }
 
 #imgREACT {
   height: 54px;
   width: 57px;
   background-image: url("../../images/skills/react.webp");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+
   top: 26px;
   right: 6px;
-  position: absolute;
-  border-radius: 5px;
 }
 
 #imgNODE {
   height: 60px;
   width: 57px;
   background-image: url("../../images/skills/node.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+
   top: 24px;
   right: 6px;
-  position: absolute;
-  border-radius: 5px;
 }
 
 #imgREDUX {
   height: 60px;
   width: 57px;
   background-image: url("../../images/skills/redux.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+
   top: 24px;
   right: 6px;
-  position: absolute;
-  border-radius: 5px;
 }
 
 #imgPOSTGRES {
   height: 60px;
   width: 57px;
   background-image: url("../../images/skills/postgres.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+
   top: 24px;
   right: 6px;
-  position: absolute;
-  border-radius: 5px;
 }
 
 #imgEXPRESS {
   height: 60px;
   width: 53px;
   background-image: url("../../images/skills/express.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+
   top: 24px;
   right: 8px;
-  position: absolute;
-  border-radius: 5px;
 }
 
 #imgEXPRESSBG {
