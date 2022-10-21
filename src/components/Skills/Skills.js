@@ -255,6 +255,7 @@ export default function Skills() {
           </div>
         </div>
       )}
+      <p>The content level of the glasses represents my knowledge</p>
     </div>
   );
 }

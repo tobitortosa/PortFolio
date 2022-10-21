@@ -2,16 +2,24 @@
   color: white;
   height: 107.5vh;
   overflow: hidden;
-  background-image: url("../../images/mobileBG.jpg");
+  background-image: url("../../images/bgMobileReverse.jpg");
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  text-align: center;
+}
+
+.container p {
+  font-size: 13px;
+  width: 200px;
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .cupsContainer {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .title {
