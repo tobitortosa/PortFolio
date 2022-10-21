@@ -1,14 +1,62 @@
 .container {
   color: white;
-  height: 200vh;
+  height: 107.5vh;
   overflow: hidden;
   background-image: url("../../images/mobileBG.jpg");
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+
+.cupsContainer{
+    border: 1px solid red;
+    margin-top: 150px;
+}
+
+.cups {
+  position: relative;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  margin-top: 10px;
+}
+
+#img {
+  height: 110px;
+  top: 50px;
+  left: 24px;
+}
+
+.cup {
+  position: relative;
+  transform: translateY(-50%, -50%);
+  width: 100px;
+  height: 120px;
+  border: 6px solid #262626;
+  border-radius: 15px;
+  border-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cup::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 60px;
+  border: 6px solid #fff;
+  right: -43px;
+  top: 30px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 @media (max-width: 1200px) {
-
 }

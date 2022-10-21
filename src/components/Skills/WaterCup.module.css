@@ -1,15 +1,5 @@
-.container {
-  margin: 0;
-  padding: 0;
-  background-color: #262626;
-  position: relative;
-  margin-top: 300px;
-  margin-right: 150px;
-}
-
 #img {
   height: 110px;
-  position: absolute;
   top: 50px;
   left: 24px;
 }
