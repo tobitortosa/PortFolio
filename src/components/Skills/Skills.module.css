@@ -10,31 +10,139 @@
   position: relative;
 }
 
-.cupsContainer{
-    border: 1px solid red;
-    margin-top: 150px;
+.cupsContainer {
+  margin-top: 150px;
 }
 
 .cups {
   position: relative;
-  border: 1px solid red;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 280px;
   margin-top: 10px;
 }
 
-#img {
-  height: 110px;
-  top: 50px;
-  left: 24px;
+#imgJS {
+  height: 54px;
+  width: 52px;
+  background-image: url("../../images/skills/js.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 28px;
+  right: 9px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#imgHTML {
+  height: 54px;
+  width: 58px;
+  background-image: url("../../images/skills/html.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 28px;
+  right: 6px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#imgHTMLBG {
+  border: 5px solid rgb(250, 250, 250);
+  height: 30px;
+  width: 26px;
+  right: 18px;
+  position: absolute;
+  background-color: rgb(250, 250, 250);
+  top: 35px;
+}
+
+#imgCSS {
+  height: 54px;
+  width: 58px;
+  background-image: url("../../images/skills/css.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 28px;
+  right: 6px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#imgREACT {
+  height: 54px;
+  width: 57px;
+  background-image: url("../../images/skills/react.webp");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 26px;
+  right: 6px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#imgNODE {
+  height: 60px;
+  width: 57px;
+  background-image: url("../../images/skills/node.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 24px;
+  right: 6px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#imgREDUX {
+  height: 60px;
+  width: 57px;
+  background-image: url("../../images/skills/redux.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 24px;
+  right: 6px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#imgPOSTGRES {
+  height: 60px;
+  width: 57px;
+  background-image: url("../../images/skills/postgres.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 24px;
+  right: 6px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#imgEXPRESS {
+  height: 60px;
+  width: 53px;
+  background-image: url("../../images/skills/express.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 24px;
+  right: 8px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#imgEXPRESSBG {
+  border: 5px solid rgb(250, 250, 250);
+  height: 20px;
+  width: 26px;
+  right: 18px;
+  position: absolute;
+  background-color: rgb(250, 250, 250);
+  top: 35px;
 }
 
 .cup {
   position: relative;
   transform: translateY(-50%, -50%);
-  width: 100px;
-  height: 120px;
+  width: 70px;
+  height: 90px;
   border: 6px solid #262626;
   border-radius: 15px;
   border-color: #fff;
@@ -46,16 +154,13 @@
 .cup::before {
   content: "";
   position: absolute;
-  width: 30px;
-  height: 60px;
+  width: 15px;
+  height: 40px;
   border: 6px solid #fff;
-  right: -43px;
-  top: 30px;
+  right: -28px;
+  top: 18px;
   border-top-right-radius: 35px;
   border-bottom-right-radius: 35px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 @media (max-width: 1200px) {
