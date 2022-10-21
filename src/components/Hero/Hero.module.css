@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 1200px) {
+  .container {
+    background-image: url("../../images/codeMobiule.jpg");
+  }
+
   .typeContainer .text {
     color: rgba(255, 105, 180, 0.8);
     font-size: 35px;

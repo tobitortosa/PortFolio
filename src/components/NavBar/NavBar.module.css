@@ -70,11 +70,20 @@
   height: 21px;
 }
 
+#toggleButton:hover {
+  cursor: pointer;
+}
+
 #toggleButton .bar {
   height: 2px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
+  transition: 0.3s;
+}
+
+#toggleButton:hover .bar {
+  background-color: rgba(255, 255, 255);
   transition: 0.3s;
 }
 

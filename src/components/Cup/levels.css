@@ -1,0 +1,269 @@
+/* LEVEL 1 */
+
+#banner1 {
+  width: 134px;
+  height: 25px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  margin-top: 148px;
+  margin-left: 8px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#banner1 .fill1 {
+  animation-name: fillAction1;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+#banner1 #waveShape1 {
+  animation-name: waveAction1;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  fill: #04acff;
+}
+@keyframes fillAction1 {
+  00% {
+    transform: translate(0, 25px);
+  }
+  90% {
+    transform: translate(0, -5px);
+  }
+}
+@keyframes waveAction1 {
+  0% {
+    transform: translate(-150px, 0);
+  }
+  90% {
+    transform: translate(0, 0);
+  }
+}
+
+/* LEVEL 2 */
+
+#banner2 {
+  width: 134px;
+  height: 50px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  margin-top: 123px;
+  margin-left: 8px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#banner2 .fill2 {
+  animation-name: fillAction2;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+#banner2 #waveShape2 {
+  animation-name: waveAction2;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  fill: #04acff;
+}
+@keyframes fillAction2 {
+  00% {
+    transform: translate(0, 50px);
+  }
+  90% {
+    transform: translate(0, -5px);
+  }
+}
+@keyframes waveAction2 {
+  0% {
+    transform: translate(-150px, 0);
+  }
+  90% {
+    transform: translate(0, 0);
+  }
+}
+
+/* LEVEL 3 */
+
+#banner3 {
+  width: 134px;
+  height: 75px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  margin-top: 98px;
+  margin-left: 8px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#banner3 .fill3 {
+  animation-name: fillAction3;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+#banner3 #waveShape3{
+  animation-name: waveAction3;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  fill: #04acff;
+}
+@keyframes fillAction3 {
+  0% {
+    transform: translate(0, 75px);
+  }
+  90% {
+    transform: translate(0, -5px);
+  }
+}
+@keyframes waveAction3 {
+  0% {
+    transform: translate(-150px, 0);
+  }
+  90% {
+    transform: translate(0, 0);
+  }
+}
+
+/* LEVEL 4 */
+
+#banner4 {
+  width: 134px;
+  height: 100px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  margin-top: 73px;
+  margin-left: 8px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#banner4 .fill4 {
+  animation-name: fillAction4;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+#banner4 #waveShape4 {
+  animation-name: waveAction4;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  fill: #04acff;
+}
+@keyframes fillAction4 {
+  0% {
+    transform: translate(0, 100px);
+  }
+  90% {
+    transform: translate(0, -5px);
+  }
+}
+@keyframes waveAction4 {
+  0% {
+    transform: translate(-150px, 0);
+  }
+  90% {
+    transform: translate(0, 0);
+  }
+}
+
+/* LEVEL 5 */
+
+#banner5 {
+  width: 134px;
+  height: 125px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  margin-top: 48px;
+  margin-left: 8px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#banner5 .fill5 {
+  animation-name: fillAction5;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+#banner5 #waveShape5 {
+  animation-name: waveAction5;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  fill: #04acff;
+}
+@keyframes fillAction5 {
+  0% {
+    transform: translate(0, 125px);
+  }
+  90% {
+    transform: translate(0, -5px);
+  }
+}
+@keyframes waveAction5 {
+  0% {
+    transform: translate(-150px, 0);
+  }
+  90% {
+    transform: translate(0, 0);
+  }
+}
+
+/* LEVEL 6 */
+
+#banner6 {
+  width: 134px;
+  height: 150px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  margin-top: 23px;
+  margin-left: 8px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#banner6 .fill6 {
+  animation-name: fillAction6;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+#banner6 #waveShape6 {
+  animation-name: waveAction6;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  fill: #04acff;
+}
+@keyframes fillAction6 {
+  0% {
+    transform: translate(0, 150px);
+  }
+  90% {
+    transform: translate(0, -5px);
+  }
+}
+@keyframes waveAction6 {
+  0% {
+    transform: translate(-150px, 0);
+  }
+  90% {
+    transform: translate(0, 0);
+  }
+}
