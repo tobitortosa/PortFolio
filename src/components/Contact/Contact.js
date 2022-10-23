@@ -27,9 +27,27 @@ export default function Contact() {
         </div>
         <div className={s.other}>
           <div className={s.img}>
-            <div className={s.link}></div>
-            <div className={s.git}></div>
-            <div className={s.wpp}></div>
+            <a
+              href="https://www.linkedin.com/in/tobiastortosa/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={s.link}></div>
+            </a>
+            <a
+              href="https://github.com/tobitortosa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={s.git}></div>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=541140851865"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={s.wpp}></div>
+            </a>
           </div>
           <p>© 2023 Tobías Tortosa.</p>
         </div>

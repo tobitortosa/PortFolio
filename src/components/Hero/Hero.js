@@ -26,7 +26,12 @@ export default function Hero() {
         </span>
         <span className={s.text} id={s.secText}>
           <Typed
-            strings={["Full Stack Developer", "Creator"]}
+            strings={[
+              "Full Stack Developer",
+              "Tech Enthusiast",
+              "Creative Person",
+              "Student",
+            ]}
             typeSpeed={100}
             backSpeed={55}
             loop
