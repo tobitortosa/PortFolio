@@ -80,61 +80,36 @@
   text-align: center;
   overflow-wrap: break-word;
   color: rgba(255, 255, 255, 0.9);
+  width: 45vw;
 }
 
 .hexTxt h3 {
   font-size: 2.8vh;
   margin: 0;
-  margin-top: 35px;
 }
 
 .hexTxt p {
   margin-top: 5px;
   font-size: 1.5vh;
+  margin: 10px;
 }
 
 .hex {
-  margin-top: 30px;
+  background-image: url("../../images/pinkhex.png");
+  background-size: 100% auto;
+  height: 80px;
   width: 80px;
-  height: 40px;
-  background-color: rgba(255, 105, 180);
-  border-color: rgba(255, 105, 180);
   position: relative;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 37px;
+  font-size: 4vh;
+  margin-bottom: 18px;
 }
 
-.hex:before {
-  content: " ";
-  width: 0;
-  height: 0;
-  border-bottom: 30px solid;
-  border-color: inherit;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  position: absolute;
-  top: -27px;
-  left: 0px;
-  border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-}
-
-.hex:after {
-  content: "";
-  width: 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  position: absolute;
-  bottom: -27px;
-  border-top: 30px solid;
-  border-color: inherit;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  left: 0px;
-  border-radius: 3px;
+.hex i {
+  margin-top: 8px;
 }
 
 @media (min-width: 900px) {
@@ -143,6 +118,15 @@
     font-size: 24px;
     position: relative;
     margin-top: 120px;
+  }
+
+  .hex {
+    background-image: url("../../images/pinkhex.png");
+    background-size: 100% auto;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-repeat: no-repeat;
   }
 
   .hexTxt {
@@ -158,7 +142,7 @@
     align-items: center;
     width: 80vw;
     justify-content: space-evenly;
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
 
   .hexContainer {
