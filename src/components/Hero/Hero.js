@@ -29,9 +29,9 @@ export default function Hero() {
             strings={[
               "Full Stack Developer",
               "Tech Enthusiast",
-              "Creative Person",
-              "Musician",
+              "Code Lover",
               "Student",
+              "Musician",
             ]}
             typeSpeed={100}
             backSpeed={55}

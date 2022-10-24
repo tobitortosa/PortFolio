@@ -2,6 +2,8 @@ import React from "react";
 import s from "./Contact.module.css";
 import { useState } from "react";
 import validate from "./validator";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [error, setError] = useState({});
@@ -12,20 +14,6 @@ export default function Contact() {
     subject: "",
     message: "",
   });
-
-  const handleSendButton = (e) => {
-    e.preventDefault();
-    if (error.name) {
-      alert(error.name);
-    } else if (error.email) {
-      alert(error.email);
-    } else if (error.name && error.email || !input.name) {
-      alert("Name and Email is required");
-    } else {
-      console.log("SEND!");
-    }
-  };
-
   const handleInputChange = (e) => {
     setInput({
       ...input,
@@ -40,16 +28,52 @@ export default function Contact() {
     );
   };
 
+  const handleSendButton = (e) => {
+    e.preventDefault();
+    if (error.name) {
+      alert(error.name);
+    } else if (error.email) {
+      alert(error.email);
+    } else if ((error.name && error.email) || !input.name) {
+      alert("Name and Email is required");
+    } else {
+      console.log("SEND!");
+      sendEmail();
+    }
+  };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+
+    emailjs
+      .sendForm(
+        "service_0uacppa",
+        "template_97t54cv",
+        form.current,
+        "c1uFzFc6MoxAFZkBP"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className={s.container} id="Contact">
       <h3 className={s.title}>CONTACT</h3>
-      <form className={s.form}>
+      <form ref={form} className={s.form} onSubmit={handleSendButton}>
         <label className={s.required}>Your Name</label>
         <input
           onChange={handleInputChange}
           name="name"
           type="text"
           placeholder="Name..."
+          value={input.name}
         />
         <label className={s.required}>Your Email</label>
         <input
@@ -57,6 +81,7 @@ export default function Contact() {
           name="email"
           type="text"
           placeholder="Email..."
+          value={input.email}
         />
         <label>Subject</label>
 
@@ -65,11 +90,13 @@ export default function Contact() {
           name="subject"
           type="text"
           placeholder="Subject..."
+          value={input.subject}
         />
         <label>Your Message</label>
         <textarea
           onChange={handleInputChange}
           name="message"
+          value={input.message}
           placeholder="Message..."
           id={s.message}
           rows="2"
