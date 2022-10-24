@@ -25,6 +25,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 5vh;
+  max-width: 900px;
 }
 
 .title {
@@ -47,8 +48,9 @@
 .cups {
   position: relative;
   display: flex;
-  justify-content: space-around;
-  width: 80vw;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 68vw;
   height: 80vh;
   margin: 8px 0px;
 }

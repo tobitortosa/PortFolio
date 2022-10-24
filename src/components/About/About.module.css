@@ -26,6 +26,13 @@
   left: 8px;
 }
 
+.textAndImgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .imgContainer {
   position: relative;
 }
@@ -41,6 +48,12 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
+.hexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .textContainer {
   height: 50vh;
   width: 80vw;
@@ -50,15 +63,8 @@
   margin-top: 4vh;
 }
 
-.hexContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .twoHexContainer {
   display: flex;
-  width: 100vw;
   height: 26vh;
   justify-content: space-evenly;
 }
@@ -68,7 +74,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40vw;
 }
 
 .hexTxt {
@@ -138,5 +143,65 @@
     font-size: 24px;
     position: relative;
     margin-top: 120px;
+  }
+
+  .hexTxt {
+    text-align: center;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 0.9);
+    width: 13vw;
+  }
+
+  .textAndImgContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+  }
+
+  .hexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .twoHexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .hexTxt {
+    text-align: center;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 2vh;
+  }
+
+  .textContainer {
+    height: auto;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+  }
+
+  .twoHexContainer {
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+  }
+
+  #img {
+    background-image: url("../../images/1.png");
+    background-size: cover;
+    height: 36vh;
+    width: 36vh;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   }
 }

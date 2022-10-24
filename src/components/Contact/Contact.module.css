@@ -81,6 +81,7 @@
   border: 2px solid transparent;
   transition: 0.3s;
   width: 80vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #message:focus {

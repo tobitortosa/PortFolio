@@ -30,6 +30,7 @@ export default function Hero() {
               "Full Stack Developer",
               "Tech Enthusiast",
               "Creative Person",
+              "Musician",
               "Student",
             ]}
             typeSpeed={100}

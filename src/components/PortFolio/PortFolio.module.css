@@ -127,6 +127,7 @@
 
 .card:hover .panel {
   opacity: 1;
+  display: flex;
   transition: 0.3s;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;

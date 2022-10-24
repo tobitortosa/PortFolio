@@ -7,6 +7,26 @@ body {
   box-sizing: border-box;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(233, 233, 233);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 105, 180);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(214, 88, 151);
+}
+
 @media (max-width: 1200px) {
   body {
     background-image: url("./images/mobileBG.jpg");
