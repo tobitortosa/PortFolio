@@ -178,6 +178,50 @@
   background-size: 100% auto;
 }
 
+/* Loading */
+
+#sendTxt {
+  color: rgba(172, 255, 47, 0.9);
+  font-size: 14px;
+}
+
+#sendBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ldsRing {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.ldsRing div {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.ldsRing div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.ldsRing div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.ldsRing div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (min-width: 900px) {
   .title {
     color: rgba(255, 255, 255, 0.88);

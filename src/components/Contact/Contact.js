@@ -7,7 +7,8 @@ import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [error, setError] = useState({});
-
+  const [loading, setLoading] = useState(false);
+  const [send, setSend] = useState(false);
   const [input, setInput] = useState({
     name: "",
     email: "",
@@ -38,7 +39,11 @@ export default function Contact() {
       alert("Name and Email is required");
     } else {
       sendEmail();
-      alert("Send!")
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+        setSend(true);
+      }, 2000);
     }
   };
 
@@ -93,7 +98,19 @@ export default function Contact() {
           cols="20"
           wrap="hard"
         ></textarea>
-        <button onClick={handleSendButton}>SEND</button>
+        <button id={s.sendBtn} onClick={handleSendButton}>
+          {loading ? (
+            <div className={s.ldsRing}>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          ) : (
+            "SEND"
+          )}
+        </button>
+        {send && <p id={s.sendTxt}>Email Sent Successfully!</p>}
         <div className={s.emailAndNumber}>
           <div className={s.row}>
             <i class="uil uil-mobile-android"></i>
