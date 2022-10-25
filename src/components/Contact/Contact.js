@@ -37,30 +37,20 @@ export default function Contact() {
     } else if ((error.name && error.email) || !input.name) {
       alert("Name and Email is required");
     } else {
-      console.log("SEND!");
       sendEmail();
+      alert("Send!")
     }
   };
 
   const form = useRef();
 
   const sendEmail = (e) => {
-
-    emailjs
-      .sendForm(
-        "service_0uacppa",
-        "template_97t54cv",
-        form.current,
-        "c1uFzFc6MoxAFZkBP"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_0uacppa",
+      "template_97t54cv",
+      form.current,
+      "c1uFzFc6MoxAFZkBP"
+    );
   };
 
   return (
