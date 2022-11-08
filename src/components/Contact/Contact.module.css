@@ -1,6 +1,6 @@
 .container {
   color: white;
-  height: 107.5vh;
+  min-height: 107.5vh;
   overflow: hidden;
   background-image: url("../../images/bgMobileReverse.jpg");
   background-size: 100% 100%;
@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   text-align: start;
-  height: 71vh;
+  min-height: 71vh;
   justify-content: center;
   max-width: 900px;
 }
@@ -42,13 +42,12 @@
 }
 
 .form input {
-  height: 4vh;
+  min-height: 4vh;
   width: 80vw;
   margin: 10px 0px;
   padding-left: 8px;
   border-radius: 8px;
   max-width: 900px;
-
   outline: none;
   border: 2px solid transparent;
   transition: 0.3s;
@@ -113,14 +112,14 @@
 
 .emailAndNumber {
   width: 80vw;
-  height: 5vh;
+  min-height: 5vh;
   margin-top: 2vh;
 }
 
 .row {
   display: flex;
   align-items: center;
-  height: 25px;
+  min-height: 25px;
 }
 
 .row i {
@@ -140,7 +139,7 @@
   background-color: rgba(255, 255, 255, 0.85);
   position: absolute;
   bottom: 0px;
-  height: 75px;
+  min-height: 75px;
   right: 0;
   left: 0;
 }
@@ -158,21 +157,21 @@
 }
 
 .img .link {
-  height: 30px;
+  min-height: 30px;
   width: 30px;
   background-image: url("../../images/linkedin.png");
   background-size: 100% auto;
 }
 
 .img .git {
-  height: 30px;
+  min-height: 30px;
   width: 30px;
   background-image: url("../../images/github.png");
   background-size: 100% auto;
 }
 
 .img .wpp {
-  height: 30px;
+  min-height: 30px;
   width: 30px;
   background-image: url("../../images/wpp.png");
   background-size: 100% auto;
@@ -193,12 +192,12 @@
 .ldsRing {
   position: relative;
   width: 25px;
-  height: 25px;
+  min-height: 25px;
 }
 .ldsRing div {
   position: absolute;
   width: 10px;
-  height: 10px;
+  min-height: 10px;
   border: 8px solid #fff;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
