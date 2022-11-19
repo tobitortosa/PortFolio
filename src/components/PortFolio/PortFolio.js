@@ -6,6 +6,24 @@ export default function PortFolio() {
     <div id="Portfolio" className={s.container}>
       <h3 className={s.title}>PORTFOLIO</h3>
       <div className={s.cardContainer}>
+        <div id={s.pf} className={s.card}>
+          <div className={s.panel}>
+            <div className={s.text}>
+              <h4>E-Commerce</h4>
+              <p>Buy PC Products And Build Your PC</p>
+            </div>
+            <div className={s.buttons}>
+              <a
+                href="https://e-commerce-sage-two.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div id={s.arrowImg}></div>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div id={s.wa} className={s.card}>
           <div className={s.panel}>
             <div className={s.text}>
@@ -21,7 +39,7 @@ export default function PortFolio() {
                 <div id={s.gitImg}></div>
               </a>
               <a
-                href="https://weather-app-bay-eta.vercel.app/"
+                href="https://weather-app-bay-eta.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -46,7 +64,7 @@ export default function PortFolio() {
                 <div id={s.gitImg}></div>
               </a>
               <a
-                href="https://videogames-pi-seven.vercel.app/"
+                href="https://videogames-pi-seven.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >

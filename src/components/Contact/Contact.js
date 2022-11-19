@@ -113,10 +113,6 @@ export default function Contact() {
         {send && <p id={s.sendTxt}>Email Sent Successfully!</p>}
         <div className={s.emailAndNumber}>
           <div className={s.row}>
-            <i class="uil uil-mobile-android"></i>
-            <p>+54 11 40851865</p>
-          </div>
-          <div className={s.row}>
             <i class="uil uil-envelope"></i>
             <p>tobiastortosa17@gmail.com</p>
           </div>
