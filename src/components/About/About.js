@@ -58,6 +58,13 @@ export default function About() {
         </div>
         <div className={s.imgContainer}>
           <div id={s.img}></div>
+          <a
+            href="https://drive.google.com/file/d/1J2y0XB151JzSkZ-Ap8W8-JG40z8vmOgr/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download CV
+          </a>
         </div>
       </div>
     </div>
