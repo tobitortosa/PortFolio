@@ -59,7 +59,7 @@ export default function About() {
         <div className={s.imgContainer}>
           <div id={s.img}></div>
           <a
-            href="https://drive.google.com/file/d/1J2y0XB151JzSkZ-Ap8W8-JG40z8vmOgr/view"
+            href="https://drive.google.com/file/d/1KABY3qj61MHA6cN1rTkGqFlHb1iv07Ye/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
           >
