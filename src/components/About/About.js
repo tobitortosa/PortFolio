@@ -7,6 +7,17 @@ export default function About() {
       <h3 className={s.title}>ABOUT</h3>
       <div className={s.textAndImgContainer}>
         <div className={s.textContainer}>
+          <div className={s.imgContainer}>
+          <div id={s.img}></div>
+          <a
+            href="https://drive.google.com/file/d/1gJlHtipFp0XfYKTifGZfVjE78XAJTrns/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download CV
+          </a>
+        </div>
+      </div>
           <div className={s.hexContainer}>
             <div className={s.twoHexContainer}>
               <div className={s.hexs}>
@@ -56,17 +67,6 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className={s.imgContainer}>
-          <div id={s.img}></div>
-          <a
-            href="https://drive.google.com/file/d/1gJlHtipFp0XfYKTifGZfVjE78XAJTrns/view?usp=drive_link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download CV
-          </a>
-        </div>
-      </div>
     </div>
   );
 }
