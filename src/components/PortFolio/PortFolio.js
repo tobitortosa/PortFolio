@@ -14,7 +14,7 @@ export default function PortFolio() {
             </div>
             <div className={s.buttons}>
               <a
-                href="https://e-commerce-sage-two.vercel.app/"
+                href="https://e-commerce-pf.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
