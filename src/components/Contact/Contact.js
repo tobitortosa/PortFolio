@@ -114,7 +114,7 @@ export default function Contact() {
         <div className={s.emailAndNumber}>
           <div className={s.row}>
             <i class="uil uil-envelope"></i>
-            <p>tobiastortosa17@gmail.com</p>
+            <p>tobiastortosacontact@gmail.com</p>
           </div>
         </div>
         <div className={s.other}>
